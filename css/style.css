@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    min-width: 1200px;
+    
+}
+
+.btn {
+    display: inline-block;
+    font-size: 40px;     
+    padding: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;    
+}
+
+.btn:hover {
+    transform:scale(1.2);
+}
+
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('../img/img3.jpg');
+    background-position: bottom;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__text  a{
+    background-color: #47464596;
+    border: 4px solid #fc0303;
+    color: #ebc59d;
+}
+
+
+
+.intro-text {
+    color: #faf8f5;
+    background-color: #383331;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    height: 250px;
+    margin-top: -6rem;
+    clip-path: polygon(50% 10%, 100% 0, 100% 95%, 50% 100%, 0 90%, 0 0);  
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.packaging-image{
+    background-attachment: fixed;
+    height: 600px;
+    background-image: url('../img/img1.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -7rem;
+
+}
+
+.packaging-image a{
+    background-color: #f7aa4da4;
+    border: 4px solid #f7f5f4;
+    color: #000000;    
+        
+}
+
+
+
+.packaging-text {
+    background-color:#666666;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    height: 250px;
+    padding: 0 15rem;
+    margin-top: -7rem;
+    margin-bottom: -7rem;
+    clip-path: polygon(50% 0, 100% 5%, 100% 100%, 50% 95%, 0 100%, 0 5%);
+    
+}
+
+.packaging_text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.tutorials-image{
+    background-attachment: fixed;
+    height: 450px;
+    background-image: url('../img/img2.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tutorials-image__text a{
+    margin-top: 7rem;
+    background-color: #292929b4;
+    border: 4px solid #ff2a00;
+    color: #ffffff;        
+}
+
+
+.footer {
+    height: 160px;
+    background-color: #808080;
+    color: #cfcfcf;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #bcbbc4;
+    transition: all 0.5s ease-in-out;  
+}
+
+.footer ul li:hover {
+    transform: scale(1.2);
+}
+
+.footer ul li a:hover {
+    color: #fcf9f9;
+}
+
+
+
+
+ 
